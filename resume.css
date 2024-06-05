@@ -123,6 +123,10 @@ p {
     margin: 5px;
 }
 
+.heading h1 {
+    border-bottom: 2px solid rgb(53, 53, 53);
+}
+
 .contact-section {
     margin: 0;
 }

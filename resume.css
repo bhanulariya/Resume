@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+body {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-template {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px grey;
+    width: 800px;
+    padding: 20px;
+}
+
+.top-section {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    height: 280px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 150px;
+    padding: 15px;
+    align-items: center;
+    background-color: rgb(246, 231, 214);
+    box-shadow: 0px 0px 5px grey;
+}
+
+.avtar-section {
+    display: flex;
+    width: 60px;
+}
+
+img {
+    display: flex;
+    position: absolute;
+    width: 200px;
+    top: 40px;
+    right: 510px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    filter: drop-shadow(0px 0px 5px grey);
+}
+
+.profile {
+    display: block;
+    margin-left: 150px;
+}
+
+.profile>.name-section>h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: -10px;
+}
+
+.name-section {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+}
+
+.company-section {
+    display: block;
+    width: 200px;
+}
+
+.middle {
+    display: flex;
+    width: 100%;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    line-height: 35px;
+    background-color: rgb(209, 196, 181);
+    padding-top: 400px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+i {
+    padding-right: 5px;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    margin: 10px;
+    line-height: 20px;
+}
+
+.heading {
+    margin: 5px;
+}
+
+.contact-section {
+    margin: 0;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    padding-top: 400px;
+}
+
+.objective-section>p {
+    margin-top: 10px;
+}
+
+.place-date {
+    display: flex;
+    justify-content: space-between;
+}
